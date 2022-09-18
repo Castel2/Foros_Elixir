@@ -1,9 +1,7 @@
 defmodule TallerExilir.Fuzzbuzz do
   alias TallerExilir.MyList
-<<<<<<< HEAD
+
   @spec exec(pos_integer) :: [:buzz | :fizz | :fizzbuzz | number]
-=======
->>>>>>> 32d81c64c8c6c26a48a2b7976739561bdd44563a
   def exec(n) do
     MyList.generate(n)
     |> exec2()
